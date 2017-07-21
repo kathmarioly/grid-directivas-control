@@ -1,9 +1,9 @@
 /*
-Error: File to import not found or unreadable: _variables.scss.
+Error: File to import not found or unreadable: _container.scss.
         on line 2 of sass/main.scss
 
 1: @import 'assets/stylesheets/bootstrap.scss';
-2: @import '_variables.scss';
+2: @import '_container.scss';
 3: @import '_mixin.scss';
 4: @import '_bases.scss';
 
@@ -49,4 +49,4 @@ sass/main.scss:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: _variables.scss.\A         on line 2 of sass/main.scss\A \A 1: @import 'assets/stylesheets/bootstrap.scss';\A 2: @import '_variables.scss';\A 3: @import '_mixin.scss';\A 4: @import '_bases.scss';"; }
+  content: "Error: File to import not found or unreadable: _container.scss.\A         on line 2 of sass/main.scss\A \A 1: @import 'assets/stylesheets/bootstrap.scss';\A 2: @import '_container.scss';\A 3: @import '_mixin.scss';\A 4: @import '_bases.scss';"; }
