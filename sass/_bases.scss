@@ -9,3 +9,17 @@
 	max-width: 1200px;
 	margin: 0px auto;
 }
+
+.templateRow{
+	content: "";
+	display: table;
+}
+.row{
+	&:before{
+		@extend .templateRow;
+	}
+	&:after{
+		@extend .templateRow;
+		clear: both;
+	}
+}
